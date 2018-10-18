@@ -8,7 +8,7 @@ public class MainClass {
 
     public static void main(String[] args) {
         int qtyOfBalancedTrees = 0;
-        int percentOfBalancedTrees = 100 * (qtyOfBalancedTrees / TREEQTY);
+        double percentOfBalancedTrees = 100 * ((double) qtyOfBalancedTrees / TREEQTY);
         for(int i = 0; i < TREEQTY; i++) {
             if(newTree().isBalanced()) qtyOfBalancedTrees++;
         }
